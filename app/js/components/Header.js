@@ -8,7 +8,7 @@ var Header        = React.createClass({
     return (
       <header className="header">
         <Link to="Home">
-          <img className="header__logo" src="/images/logo.png" srcSet="/images/logo.svg 2x" alt="Kelly & Micah Logo" />
+          <img className="header__logo" src="/images/logo.png" alt="Kelly & Micah Logo" />
         </Link>
         <p className="header__date">March 19th, 2016</p>
         <nav className="header__nav">
