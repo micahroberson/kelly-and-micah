@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Conv_GothamNarrow-Medium';
+  src: url('/fonts/GothamNarrow-Medium.eot');
+  src: url('/fonts/GothamNarrow-Medium.eot') format('embedded-opentype'),
+       url('/fonts/GothamNarrow-Medium.woff') format('woff'),
+       url('/fonts/GothamNarrow-Medium.ttf') format('truetype'),
+       url('/fonts/GothamNarrow-Medium.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+p {
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.heading {
+  margin-bottom: 0;
+
+  &.-large {
+    font-size: $font-size--lg;
+    font-weight: 300;
+    line-height: $half-space * 3 / 2;
+  }
+
+  &.-medium {
+    font-size: $font-size--md;
+    font-weight: 300;
+    line-height: $half-space;
+  }
+
+  &.-small {
+    font-size: $font-size--sm;
+    font-weight: 300;
+    line-height: $half-space * 2 / 3;
+  }
+
+  &.-smallest {
+    font-size: $font-size--xs;
+    font-weight: 300;
+  }
+}
+
+h1 {
+  @extend .heading.-large;
+}
+
+h2 {
+  @extend .heading.-medium;
+}
+
+h3 {
+  @extend .heading.-small;
+}
