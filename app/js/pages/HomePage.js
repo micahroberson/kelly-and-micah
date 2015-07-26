@@ -33,7 +33,7 @@ var HomePage = React.createClass({
     return (
       <DocumentTitle title="Kelly & Micah">
         <section className="home-page" style={{height: this.state.img_height}}>
-          <ReactSwipe>
+          <ReactSwipe auto={5000} continuous={true} speed={600}>
             <div className="image image--1" />
             <div className="image image--2" />
             <div className="image image--3" />
