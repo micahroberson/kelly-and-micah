@@ -14,9 +14,12 @@ var SchedulePage = React.createClass({
       <DocumentTitle title="Weekend Schedule">
         <div>
           <section className="info-section">
-            <h3 className="info-section__title">Coming Soon!</h3>
-            <p className="info-section__body">
-            </p>
+            <div className="info-section__left info-section__left--text">
+              <h3 className="info-section__subtitle">Coming Soon!</h3>
+              <p className="info-section__body">
+                The schedule for the weekend festivities will be posted here closer to the wedding date. Please check back as the big day approaches!
+              </p>
+            </div>
           </section>
         </div>
       </DocumentTitle>

@@ -14,9 +14,12 @@ var RegistryPage = React.createClass({
       <DocumentTitle title="Weekend Schedule">
         <div>
           <section className="info-section">
-            <h3 className="info-section__title">Coming Soon!</h3>
-            <p className="info-section__body">
-            </p>
+            <div className="info-section__left info-section__left--text">
+              <h3 className="info-section__subtitle">Coming Soon!</h3>
+              <p className="info-section__body">
+                You're quicker than we are - we haven't registered yet! Check back later and this will be updated.
+              </p>
+            </div>
           </section>
         </div>
       </DocumentTitle>

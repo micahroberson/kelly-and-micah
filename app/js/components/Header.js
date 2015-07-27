@@ -23,10 +23,10 @@ var Header        = React.createClass({
               <Link to="MillValley">Mill Valley & Recommendations</Link>
             </li>
             <li className="header__nav__links__li">
-              <Link to="Schedule">Weekend Schedule</Link>
+              <Link to="Registry">Registry</Link>
             </li>
             <li className="header__nav__links__li">
-              <Link to="Registry">Registry</Link>
+              <Link to="Schedule">Weekend Schedule</Link>
             </li>
           </ul>
         </nav>

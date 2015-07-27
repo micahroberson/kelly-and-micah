@@ -13,17 +13,86 @@
 .info-section {
   max-width: 900px;
   margin: 0 auto;
+  @include clearfix();
   &:first-child {
     margin-top: 60px;
   }
+  &:last-child {
+    margin-bottom: 60px;
+  }
   &__title {
+    display: inline-block;
+    position: relative;
     margin-top: 0;
-    font-size: 20px;
+    margin-bottom: 30px;
+    font-size: 44px;
+    font-weight: 600;
+    &:after {
+      content: '';
+      height: 1px;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      bottom: -25px;
+      border-top: 3px solid #303030;
+    }
+  }
+  &__subtitle {
+    font-size: 22px;
     font-weight: 500;
   }
   &__image {
+    display: block;
+  }
+  &__left {
+    float: left;
+    &--text {
+      width: 45%;
+      padding-right: 40px;
+      padding-top: 15px;
+      .info-section__body {
+        margin-bottom: 0;
+        // font-size: 14px;
+        min-height: 235px;
+      }
+    }
+    &--image {
+      width: 55%;
+    }
+  }
+  &__right {
+    float: right;
+    &--image {
+      width: 55%;
+    }
+    &--text {
+      width: 45%;
+      padding-left: 40px;
+      padding-top: 15px;
+      .info-section__body {
+        margin-bottom: 0;
+        // font-size: 14px;
+        min-height: 235px;
+      }
+    }
+  }
+  &__image-subtitle-wrapper {
     width: 100%;
-    // margin-bottom: 60px;
+    position: relative;
+    // overflow: hidden;
+    .info-section__image {
+      border-radius: 3px;
+    }
+    .info-section__subtitle {
+      position: absolute;
+      bottom: 30px;
+      left: 30px;
+      width: 100%;
+      color: #fff;
+      margin: 0;
+      text-transform: uppercase;
+      font-size: 32px;
+    }
   }
   &__body {
     margin-bottom: 60px;
@@ -84,8 +153,34 @@
       // margin-bottom: 30px;
     }
     &__body {
-      margin-bottom: 60px;
+      margin-bottom: 30px;
       padding: 0 30px;
+    }
+    &__left {
+      float: none;
+      &--text, &--image {
+        width: 100%;
+      }
+      &--text {
+        padding: 15px 30px;
+        .info-section__body {
+          padding: 0;
+          min-height: 0;
+        }
+      }
+    }
+    &__right {
+      float: none;
+      &--text, &--image {
+        width: 100%;
+      }
+      &--text {
+        padding: 15px 30px;
+        .info-section__body {
+          padding: 0;
+          min-height: 0;
+        }
+      }
     }
   }
 }

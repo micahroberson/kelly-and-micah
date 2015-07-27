@@ -1,13 +1,6 @@
-@font-face {
-  font-family: 'Conv_GothamNarrow-Medium';
-  src: url('/fonts/GothamNarrow-Medium.eot');
-  src: url('/fonts/GothamNarrow-Medium.eot') format('embedded-opentype'), url('/fonts/GothamNarrow-Medium.woff') format('woff'), url('/fonts/GothamNarrow-Medium.ttf') format('truetype'), url('/fonts/GothamNarrow-Medium.svg') format('svg');
-  font-weight: normal;
-  font-style: normal; }
-
 /* line 12, /Users/micahroberson/Projects/kelly-and-micah/app/styles/_typography.scss */
 body {
-  font-family: sans-serif;
+  font-family: 'Cabin', sans-serif;
   font-size: 16px; }
 
 /* line 17, /Users/micahroberson/Projects/kelly-and-micah/app/styles/_typography.scss */
@@ -80,7 +73,7 @@ img {
     top: 45px;
     line-height: 68px;
     right: 70px;
-    font-size: 20px;
+    font-size: 28px;
     margin: 0; }
   /* line 21, /Users/micahroberson/Projects/kelly-and-micah/app/styles/elements/_header.scss */
   .header__nav {
@@ -99,7 +92,6 @@ img {
         /* line 32, /Users/micahroberson/Projects/kelly-and-micah/app/styles/elements/_header.scss */
         .header__nav__links__li a {
           position: relative;
-          font-family: 'Conv_GothamNarrow-Medium';
           text-decoration: none;
           text-transform: uppercase; }
           /* line 37, /Users/micahroberson/Projects/kelly-and-micah/app/styles/elements/_header.scss */
@@ -160,70 +152,167 @@ footer {
 .info-section {
   max-width: 900px;
   margin: 0 auto; }
-  /* line 16, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+  /* line 27, /Users/micahroberson/Projects/kelly-and-micah/app/styles/_base.scss */
+  .info-section::after {
+    clear: both;
+    content: "";
+    display: table; }
+  /* line 17, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
   .info-section:first-child {
     margin-top: 60px; }
-  /* line 19, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+  /* line 20, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+  .info-section:last-child {
+    margin-bottom: 60px; }
+  /* line 23, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
   .info-section__title {
+    display: inline-block;
+    position: relative;
     margin-top: 0;
-    font-size: 20px;
+    margin-bottom: 30px;
+    font-size: 44px;
+    font-weight: 600; }
+    /* line 30, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+    .info-section__title:after {
+      content: '';
+      height: 1px;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      bottom: -25px;
+      border-top: 3px solid #303030; }
+  /* line 40, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+  .info-section__subtitle {
+    font-size: 22px;
     font-weight: 500; }
-  /* line 24, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+  /* line 44, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
   .info-section__image {
-    width: 100%; }
-  /* line 28, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+    display: block; }
+  /* line 47, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+  .info-section__left {
+    float: left; }
+    /* line 49, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+    .info-section__left--text {
+      width: 45%;
+      padding-right: 40px;
+      padding-top: 15px; }
+      /* line 53, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+      .info-section__left--text .info-section__body {
+        margin-bottom: 0;
+        min-height: 235px; }
+    /* line 59, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+    .info-section__left--image {
+      width: 55%; }
+  /* line 63, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+  .info-section__right {
+    float: right; }
+    /* line 65, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+    .info-section__right--image {
+      width: 55%; }
+    /* line 68, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+    .info-section__right--text {
+      width: 45%;
+      padding-left: 40px;
+      padding-top: 15px; }
+      /* line 72, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+      .info-section__right--text .info-section__body {
+        margin-bottom: 0;
+        min-height: 235px; }
+  /* line 79, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+  .info-section__image-subtitle-wrapper {
+    width: 100%;
+    position: relative; }
+    /* line 83, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+    .info-section__image-subtitle-wrapper .info-section__image {
+      border-radius: 3px; }
+    /* line 86, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+    .info-section__image-subtitle-wrapper .info-section__subtitle {
+      position: absolute;
+      bottom: 30px;
+      left: 30px;
+      width: 100%;
+      color: #fff;
+      margin: 0;
+      text-transform: uppercase;
+      font-size: 32px; }
+  /* line 97, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
   .info-section__body {
     margin-bottom: 60px; }
 
-/* line 33, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+/* line 102, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
 .home-page {
   min-height: 400px; }
-  /* line 35, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+  /* line 104, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
   .home-page > div {
     height: 100%; }
-    /* line 37, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+    /* line 106, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
     .home-page > div > div {
       height: 100%; }
-  /* line 41, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+  /* line 110, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
   .home-page .image {
     height: 100%; }
-    /* line 43, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+    /* line 112, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
     .home-page .image--1 {
       background: url("/images/WMPR2173.jpg") no-repeat 28% center;
       background-size: cover; }
-    /* line 47, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+    /* line 116, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
     .home-page .image--2 {
       background: url("/images/WMPR2135.jpg") no-repeat 70% center;
       background-size: cover; }
-    /* line 51, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+    /* line 120, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
     .home-page .image--3 {
       background: url("/images/_FOX7404.jpg") no-repeat 65% center;
       background-size: cover; }
-    /* line 55, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+    /* line 124, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
     .home-page .image--4 {
       background: url("/images/WMPR2117.jpg") no-repeat center center;
       background-size: cover; }
 
 @media (min-width: 601px) {
-  /* line 63, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+  /* line 132, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
   .home-page {
     height: 760px !important; } }
 
 @media (max-width: 600px) {
-  /* line 69, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+  /* line 138, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
   .heading {
     margin: 15px 0 30px; }
-  /* line 74, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+  /* line 143, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
   .info-section:first-child {
     margin-top: 15px; }
-  /* line 77, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+  /* line 146, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
   .info-section__title {
     padding: 0 30px;
     line-height: 1.2;
     font-size: 18px;
     text-align: center; }
-  /* line 86, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+  /* line 155, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
   .info-section__body {
-    margin-bottom: 60px;
-    padding: 0 30px; } }
+    margin-bottom: 30px;
+    padding: 0 30px; }
+  /* line 159, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+  .info-section__left {
+    float: none; }
+    /* line 161, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+    .info-section__left--text, .info-section__left--image {
+      width: 100%; }
+    /* line 164, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+    .info-section__left--text {
+      padding: 15px 30px; }
+      /* line 166, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+      .info-section__left--text .info-section__body {
+        padding: 0;
+        min-height: 0; }
+  /* line 172, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+  .info-section__right {
+    float: none; }
+    /* line 174, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+    .info-section__right--text, .info-section__right--image {
+      width: 100%; }
+    /* line 177, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+    .info-section__right--text {
+      padding: 15px 30px; }
+      /* line 179, /Users/micahroberson/Projects/kelly-and-micah/app/styles/main.scss */
+      .info-section__right--text .info-section__body {
+        padding: 0;
+        min-height: 0; } }
 
