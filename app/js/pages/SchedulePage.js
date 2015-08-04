@@ -17,7 +17,7 @@ var SchedulePage = React.createClass({
             <div className="info-section__left info-section__left--text">
               <h3 className="info-section__subtitle">Coming Soon!</h3>
               <p className="info-section__body">
-                The schedule for the weekend festivities will be posted here closer to the wedding date. Please check back as the big day approaches!
+                Please check back as the big day approaches or subscribe to our mailing list for email notifications of when key information is added to this site!
               </p>
             </div>
           </section>

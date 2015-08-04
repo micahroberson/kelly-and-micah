@@ -20,7 +20,7 @@ var Header        = React.createClass({
               <Link to="Accomodations">Accomodations</Link>
             </li>
             <li className="header__nav__links__li">
-              <Link to="MillValley">Mill Valley & Recommendations</Link>
+              <Link to="MillValley">Mill Valley Recommendations</Link>
             </li>
             <li className="header__nav__links__li">
               <Link to="Registry">Registry</Link>

@@ -23,7 +23,7 @@ module.exports = (
     <Route name='Home' path='/' handler={HomePage} />
     <Route name='Wedding' path='/wedding' handler={WeddingPage} />
     <Route name='Accomodations' path='/accomodations' handler={AccomodationsPage} />
-    <Route name='MillValley' path='/mill-valley-and-recommendations' handler={RecommendationsPage} />
+    <Route name='MillValley' path='/mill-valley-recommendations' handler={RecommendationsPage} />
     <Route name='Schedule' path='/schedule' handler={SchedulePage} />
     <Route name='Registry' path='/registry' handler={RegistryPage} />
 
