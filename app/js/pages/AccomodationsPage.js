@@ -47,7 +47,7 @@ var AccomodationsPage = React.createClass({
             <div className="info-section__left info-section__left--text">
               <h3 className="info-section__subtitle">Holiday Inn Express</h3>
               <p className="info-section__body">
-                The Holiday Inn Express Mill Valley offers a picturesque location near the base of Mount Tamalpais, overlooking majestic mountains, peaceful wetlands and bike paths. This hotel, at 2.8 miles away from the Sweetwater, is also 10 minutes by car. When calling to book, please tell them that you are with the Godfrey/Roberson Wedding to receive the prearranged group rate.
+                The Holiday Inn Express Mill Valley offers a picturesque location near the base of Mount Tamalpais, overlooking majestic mountains, peaceful wetlands and bike paths. This hotel, at 2.8 miles away from the Sweetwater, is also 10 minutes by car. To get the group rate use Group Code "GRW" or <a href="http://www.hiexpress.com/redirect?path=hd&brandCode=ex&localeCode=en&hotelCode=SFOMV&_PMID=99801505&GPC=GRW" target="_blank">follow this link to apply it automatically</a>. This code will be available until February 18th, 2016. Full instructions available <a href="https://www.dropbox.com/s/3an2a8p5ud0xzzn/03.18.16%20Godfrey%20Roberson%20Flyer.pdf?dl=0" target="_blank">here</a>.
               </p>
             </div>
           </section>
