@@ -20,11 +20,12 @@ var RecommendationsPage = React.createClass({
             <div className="info-section__left info-section__left--text">
               <h3 className="info-section__subtitle">Transportation</h3>
               <p className="info-section__body">
-                We recommended flying into San Francisco(SFO) or Oakland(OAK) international airports. The following transportation services may be helpful during your visit:<br/><br/>
+                We recommended flying into San Francisco(SFO) or Oakland(OAK).  Once here, the easiest way to get around the Mill Valley/Marin area is to rent a car. Although there are taxis, shuttles and Uber, availability can be limited in Mill Valley so we recommend renting a car at the airport. However, here is some info some of the alternatives:<br/>
                 - <strong>Marin Airporter</strong> Charter busses pick up at SFO approximately every 30 minutes. No reservations are required. <a href="http://www.marinairporter.com/index.php/sfo-airporter-services" target="_blank">MarinAirporter.com</a><br/>
                 - <strong>Uber</strong> (<a href="https://get.uber.com/invite/uber-fo-free" target="_blank">Click here for $20 off</a>)<br/>
                 - <strong>Mill Valley Taxi Service</strong> (415) 307-1336<br/>
               </p>
+              <br/>
             </div>
           </section>
           <section className="info-section">
@@ -34,7 +35,7 @@ var RecommendationsPage = React.createClass({
             <div className="info-section__right info-section__right--text">
               <h3 className="info-section__subtitle">Restaurants</h3>
               <p className="info-section__body">
-                You'll find a few of our Mill Valley favorites below, but a more complete list of the top bars and restaurants in Marin County can be found here.
+                You'll find a few of our Mill Valley favorites below, but a more complete list of the top bars and restaurants in Marin County can be found here.<br/>
                 - <strong>Sol Food</strong>. Amazing Puerto Rican food. (<a href="http://www.solfoodrestaurant.com/daily-menu.pdf" target="_blank">Menu</a>)<br/>
                 - <strong>El Paseo</strong>. A high-end, killer steakhouse from Marin locals Tyler Florence and Sammy Hagar. (<a href="http://elpaseomillvalley.com/menu_dinner.pdf" target="_blank">Menu</a>)<br/>
                 - <strong>Vascos</strong>. Italian classics and great wine! (<a href="http://www.vascomillvalley.com/menu--wine-pdfs.html" target="_blank">Menu</a>)
