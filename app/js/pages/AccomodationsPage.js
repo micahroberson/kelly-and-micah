@@ -13,7 +13,7 @@ var AccomodationsPage = React.createClass({
     return (
       <DocumentTitle title="Accomodations | Kelly & Micah">
         <div>
-          <section className="info-section">
+          <section className="info-section info-section--full-width">
             <p className="info-section__body" style={{fontSize: 18, textAlign: 'center'}}>
               We recommend staying in Mill Valley, the town where the reception will be held.
             </p>
