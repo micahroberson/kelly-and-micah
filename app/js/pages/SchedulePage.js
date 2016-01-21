@@ -17,13 +17,13 @@ var SchedulePage = React.createClass({
             <div className="info-section__left info-section__left--text">
               <h3 className="info-section__subtitle">Ceremony Transportation</h3>
               <p className="info-section__body">
-                Buses will pickup from the Sweetwater at a to be determined time.
+                Buses to the marriage ceremony site will pick up guests in front of the Sweetwater at a to be determined time.
                 <br/>
                 <br/>
-                There is plenty of parking at the ceremony site if you choose to make the beautiful drive yourself.
+                Guests are also welcome to make the beautiful drive themselves. It is approximately a 30 minute drive from downtown Mill Valley and there is plenty of parking at Trojan Point.
                 <br/>
                 <br/>
-                Please check back for more details as the wedding day approaches.
+                Please check back here for more details as the wedding day approaches.
               </p>
             </div>
           </section>

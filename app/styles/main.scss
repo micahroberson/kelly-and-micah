@@ -150,7 +150,8 @@
     }
   }
   &__body {
-    margin-bottom: 60px;
+    margin: 0 auto 60px;
+    max-width: 900px;
   }
 }
 
