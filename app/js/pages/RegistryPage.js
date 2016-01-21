@@ -11,7 +11,7 @@ var RegistryPage = React.createClass({
 
   render: function() {
     return (
-      <DocumentTitle title="Weekend Schedule">
+      <DocumentTitle title="Registry | Kelly & Micah">
         <div>
           <section className="info-section">
             <div className="info-section__center info-section__center--text">

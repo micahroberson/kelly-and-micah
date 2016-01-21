@@ -9,11 +9,14 @@ var DefaultRoute  = Router.DefaultRoute;
 var App           = require('./App');
 var HomePage      = require('./pages/HomePage');
 var WeddingPage   = require('./pages/WeddingPage');
+var BridalPartyPage   = require('./pages/BridalPartyPage');
 var AccomodationsPage   = require('./pages/AccomodationsPage');
 var RecommendationsPage   = require('./pages/RecommendationsPage');
 var RegistryPage   = require('./pages/RegistryPage');
 var SchedulePage   = require('./pages/SchedulePage');
 var NotFoundPage  = require('./pages/NotFoundPage');
+
+// <Route name='BridalParty' path='/bridal-party' handler={BridalPartyPage} />
 
 module.exports = (
   <Route handler={App} path='/'>

@@ -10,6 +10,47 @@
   margin: 30px 0 60px;
 }
 
+.column-layout {
+  display: table;
+  width: 100%;
+  .column {
+    display: table-cell;
+    width: 50%;
+    text-align: center;
+    &__title {
+      font-size: 24px;
+      padding-top: 20px;
+    }
+  }
+}
+
+.photo {
+  position: relative;
+  width: 150px;
+  margin: 25px 40px;
+  display: inline-block;
+  &:hover {
+    .photo__details__name, .photo__details__title {
+      display: block;
+    }
+  }
+  img {
+    border-radius: 50%;
+    max-width: 100%;
+  }
+  &__details {
+    position: absolute;
+    top: 56px;
+    left: 0;
+    right: 0;
+    &__name, &__title {
+      display: none;
+      color: #ffffff;
+      text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+    }
+  }
+}
+
 .info-section {
   max-width: 900px;
   margin: 0 auto 80px;
@@ -151,6 +192,14 @@
 @media (max-width: 600px) {
   .heading {
     margin: 15px 0 30px;
+  }
+
+  .column-layout {
+    display: block;
+    .column {
+      display: block;
+      width: 100%;
+    }
   }
 
   .info-section {

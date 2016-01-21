@@ -11,13 +11,19 @@ var SchedulePage = React.createClass({
 
   render: function() {
     return (
-      <DocumentTitle title="Weekend Schedule">
+      <DocumentTitle title="Weekend Schedule | Kelly & Micah">
         <div>
           <section className="info-section">
             <div className="info-section__left info-section__left--text">
-              <h3 className="info-section__subtitle">Coming Soon!</h3>
+              <h3 className="info-section__subtitle">Ceremony Transportation</h3>
               <p className="info-section__body">
-                Please check back as the big day approaches or subscribe to our mailing list for email notifications of when key information is added to this site!
+                Buses will pickup from the Sweetwater at a to be determined time.
+                <br/>
+                <br/>
+                There is plenty of parking at the ceremony site if you choose to make the beautiful drive yourself.
+                <br/>
+                <br/>
+                Please check back for more details as the wedding day approaches.
               </p>
             </div>
           </section>
