@@ -36,10 +36,10 @@ var WeddingPage = React.createClass({
             </div>
           </section>
           <section className="info-section">
-            <div className="info-section__right info-section__right--image">
-              <img className="info-section__image" src="/images/IMG_0463-cropped.png" />
+            <div className="info-section__right info-section__right--image" style={{width: '40%'}}>
+              <img className="info-section__image" src="/images/boods.png" style={{maxHeight: 400, margin: '0 0 0 auto'}} />
             </div>
-            <div className="info-section__left info-section__left--text">
+            <div className="info-section__left info-section__left--text" style={{width: '60%'}}>
               <h3 className="info-section__subtitle">Suggested Attire</h3>
               <p className="info-section__body">Semi-formal attire is requested, suits and ties for the gentlemen and dresses for the ladies. The ceremony will be held outdoors. Guests will need to walk approximately 500 feet on a dirt path from the bus drop off to the ceremony site, parts of this path are sloped. Assistance will be ready for those who need it. Ladies are recommended to wear shoes they can walk outdoors in or bring another pair for the ceremony. The weather may be unpredictable, ranging from sunny and warm to windy and chilly. Ladies are recommended to bring a shawl or jacket for warmth. A complementary coat check will be provided at the reception site to hold any extra items.</p>
             </div>

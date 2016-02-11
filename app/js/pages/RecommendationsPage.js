@@ -38,27 +38,30 @@ var RecommendationsPage = React.createClass({
                 You'll find a few of our Mill Valley favorites below, but a more complete list of the top bars and restaurants in Marin County can be found here.<br/>
                 - <strong>Sol Food</strong>. Amazing Puerto Rican food. (<a href="http://www.solfoodrestaurant.com/daily-menu.pdf" target="_blank">Menu</a>)<br/>
                 - <strong>El Paseo</strong>. A high-end, killer steakhouse from Marin locals Tyler Florence and Sammy Hagar. (<a href="http://elpaseomillvalley.com/menu_dinner.pdf" target="_blank">Menu</a>)<br/>
-                - <strong>Vascos</strong>. Italian classics and great wine! (<a href="http://www.vascomillvalley.com/menu--wine-pdfs.html" target="_blank">Menu</a>)
+                - <strong>Vascos</strong>. Italian classics and great wine! (<a href="http://www.vascomillvalley.com/menu--wine-pdfs.html" target="_blank">Menu</a>)<br/>
                 - <strong>The Cantina</strong>. Family friendly Mexican food (<a href="http://thecantina.com/dinner-menu.html" target="_blank">Menu</a>)
               </p>
             </div>
           </section>
           <section className="info-section">
+            <div className="info-section__right info-section__right--image">
+              <img className="info-section__image" src="/images/brunch.png" />
+            </div>
             <div className="info-section__left info-section__left--text">
               <h3 className="info-section__subtitle">Brunch Spots</h3>
               <p className="info-section__body">
                 - <strong>The Sweetwater Music Hall</strong>. Yep, they do brunch too, and if you're lucky there will be some live music. (<a href="http://sweetwatermusichall.ticketfly.com/files/2015/04/BRUNCH-MENU_updated04082015.pdf" target="_blank">Menu</a>)<br/>
                 - <strong>Kitchen Sunnyside</strong>. (<a href="http://www.kitchensunnyside.com/Kitchen_Sunnyside___Breakfast___Brunch___Lunch______31_Sunnyside_Ave_Mill_Valley,_CA_94941/Home_files/Kitchen%20Sunnyside%20Menu.pdf" target="_blank">Menu</a>)<br/>
-                - <strong>Mama’s Royal Café</strong>. A quirky breakfast spot that’s been open for decades.
+                - <strong>Mama’s Royal Café</strong>. A quirky breakfast spot that’s been open for decades.<br/>
                 - <strong>The Dipsea</strong>. An extensive menu of breakfast classics that never disappoint. (<a href="http://www.dipseacafe.com/Menu.html" target="_blank">Menu</a>)
               </p>
             </div>
           </section>
           <section className="info-section">
-            <div className="info-section__right info-section__right--image">
-              <img className="info-section__image" src="/images/beerworks-cropped.png" />
+            <div className="info-section__left info-section__left--image">
+              <img className="info-section__image" src="/images/beerworks.png" />
             </div>
-            <div className="info-section__left info-section__left--text">
+            <div className="info-section__right info-section__right--text">
               <h3 className="info-section__subtitle">Bars</h3>
               <p className="info-section__body">
                 Mill Valley doesn't have many too many watering holes, but nearly all of the resturants provide a nice place to grab a drink.<br/>
