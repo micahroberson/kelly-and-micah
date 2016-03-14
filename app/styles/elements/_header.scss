@@ -73,11 +73,14 @@
         @include clearfix();
         &__li {
           margin: 0 0 10px;
+          width: 50%;
           &:nth-child(odd) {
             float: left;
+            text-align: left;
           }
           &:nth-child(even) {
             float: right;
+            text-align: right;
           }
         }
       }

@@ -17,7 +17,7 @@ var SchedulePage = React.createClass({
             <div className="info-section__left info-section__left--text">
               <h3 className="info-section__subtitle">Shuttles to the Ceremony</h3>
               <p className="info-section__body">
-                Buses to the marriage ceremony site will pick up guests in front of the Mill Valley Inn at 3 o'clock in the afternoon. Buses will depart at 3:30 sharp. Please do miss the shuttle!
+                Buses to the marriage ceremony site will pick up guests in front of the Mill Valley Inn at 3 o'clock in the afternoon. Buses will depart at 3:30 sharp. Please do not miss the shuttle!
                 <br/>
                 <br/>
                 Guests are also welcome to make the beautiful drive themselves. It is approximately a 30 minute drive from downtown Mill Valley. There is some parking available at Trojan Point, parking along the road and an additional parking lot farther down the road past the site.
